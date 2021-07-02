@@ -1,0 +1,43 @@
+{
+    "packageDirectories": [
+
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "Live Demo",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "force-app",
+            "package": "Live Demo Apex",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "dependencies": [
+                {
+                    "package": "Live Demo@ver0.1"
+                }
+            ]
+        },
+        {
+            "path": "package-1"
+        },
+        {
+            "path": "package-2"
+        },
+        {
+            "path": "package-3"
+        }
+    ],
+    "name": "LiveUnlockedDemo",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "Live Demo": "0Ho3l000000XZE4CAO",
+        "Live Demo Apex": "0Ho3l000000XZE9CAO",
+        "Live Demo@ver0.1": "04t3l000000Gya8AAC",
+        "Live Demo Apex@0.1.0-1": "04t3l000000GyaDAAS"
+    }
+}

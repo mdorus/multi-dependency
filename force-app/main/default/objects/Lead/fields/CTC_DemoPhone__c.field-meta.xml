@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CTC_DemoPhone__c</fullName>
+    <description>best contact phone</description>
+    <externalId>false</externalId>
+    <inlineHelpText>best contact phone</inlineHelpText>
+    <label>Demo Phone</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Phone</type>
+</CustomField>
